@@ -1,0 +1,3 @@
+A ver, la base de datos tiene el id del usuario, de ahí se pueden mandar el registro entero, está nombre, la contraseña que se llama pass, lo de las casas se me hizo 
+más sencillo ponerlo con número, ya para que nada más mandes el número de casa que toca, Además agregue una tabla por casa para guadar los puntos, Puntos_agregados es 
+para ahí mandar los puntos que agrega el usuario y la columna llamada Ptotales es para que suban la suma de los puntos que se agregan con los puntos que ya habian.
