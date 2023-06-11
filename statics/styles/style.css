@@ -1,0 +1,15 @@
+/*------------------FONTS------------------*/
+/*usar tus propias fuentes*/
+@font-face
+{
+    font-family: "Headers";
+    src: url('../fonts/Market_Deco.ttf');
+    
+}
+
+@font-face
+{
+    font-family: "Text";
+    src: url('../fonts/MADEINFINITY\ PERSONALUSE-Regular.otf');
+    
+}
