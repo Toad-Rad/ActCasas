@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../statics/styles/inicioses.css">
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <header>
+        <h2>Casas del curso web</h2>
+        Inicio de sesion
+    </header>
+    <br>
+    <div>
+        <form method="post" action="../dynamics/php/inicioses.php">
+            Usuario
+            <input type="text" placeholder="Usuario" id='usuario' name='usuario' required/>
+            Contraseña
+            <input type="password" placeholder="Contraseña" id="contras" name="contras" required/>
+            <input type="checkbox" id="contra-check">
+            Mostrar Contraseña
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset" id="correg">Corregir</button>
+            <button>Registrar</button>
+        </form>
+    </div>
+    <script src="../dynamics/js/inicioses.js"></script>
+</body>
+</html>
