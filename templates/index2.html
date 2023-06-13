@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../statics/styles/style.css">
+    <title>Vista2</title>
+</head>
+<body>
+        <div id="headers">
+            <h1>Casas del Curso Web</h1>
+            <h2>Registro</h2>
+        </div>
+
+        <div id="form">
+        <form action="../dynamics/php/logica.php" method="post" target="_blank">
+            <fieldset>
+                
+                <label for="usuario">Usuario
+                <br>
+                <input type="text" name="usuario" placeholder="Mínimo, 5 caracteres"/>
+                <br>
+                </label>
+                <br>
+                <label for="contraseña">Contraseña
+                <br>
+                <input type="password" name="contraseña" placeholder="Mínimo, 8 caracteres"/>
+                </label>
+                <br>
+                <br>
+                <button class="botones" type="submit">Registarse</button>
+                <br>
+                <br>
+                <button class="botones" type="reset">Corregir</button>
+                <br>                
+                <br>
+                <button class="botones" id="btnRegresar" type="">Iniciar Sesión</button>
+                <br>
+                <br>
+            </fieldset>
+        </form>
+        </div>
+</body>
+</html>
