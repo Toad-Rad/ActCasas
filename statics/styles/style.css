@@ -13,3 +13,35 @@
     src: url('../fonts/MADEINFINITY\ PERSONALUSE-Regular.otf');
     
 }
+
+/*------------------DISEÑO: INICIO DE SESION (KENDRA)------------------*/
+
+                            /*Titulos*/
+
+body
+{
+    background-color: #EBE975;
+}
+
+#headers
+{
+    text-align: center;
+    font-family: 'Headers';
+    background-color: #EB6E6E;
+
+}
+
+#form
+{
+    font-family: 'Text';
+    text-align: center;
+    background-color: #78BEEB;
+}
+
+.botones
+{
+    border-radius: 40%;
+    box-shadow: 0px 5px #374197;
+    font-family: 'Text';
+    height: 2rem;
+}
