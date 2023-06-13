@@ -1,10 +1,11 @@
 <?php
-    // require "config.php";
-    // $conexion = connect();
-    // if (!$conexion){
-    //     echo "No se pudo conectar a la base";
-    // }
-    // else{
+    require "config.php";
+    $conexion = connect();
+
+    if (!$conexion){
+        echo "No se pudo conectar a la base";
+    }
+    else{
         session_start();
 
         $usuario= (isset($_POST["usuario"]) && $_POST["usuario"] != "")? $_POST["usuario"] : false;
@@ -18,6 +19,5 @@
 
         echo $_SESSION["usuario"], "<br>";
         echo $_SESSION["contras"];
-    // }
-    
+    }   
 ?>

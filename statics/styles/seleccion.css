@@ -1,0 +1,75 @@
+/*------------------FONTS------------------*/
+/*usar tus propias fuentes*/
+@font-face
+{
+    font-family: "Headers";
+    src: url('../fonts/Market_Deco.ttf');
+    
+}
+
+@font-face
+{
+    font-family: "Text";
+    src: url('../fonts/MADEINFINITY\ PERSONALUSE-Regular.otf');
+    
+}
+
+body {
+    background-image: url("../media/img/fondoo.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+
+  .house-image {
+    width: 200px;
+    height: 200px;
+    background-color: #fddde6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  h1 {
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 36px;
+    font-family: "Headers", serif;
+  }
+
+  .house-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .house-option {
+    margin: 0 22px;
+  }
+
+  .house-image {
+    width: 200px;
+    height: 200px;
+    background-color: #fddde6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  .house-image:hover {
+    transform: scale(1.1);
+  }
+
+  .house-name {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: "Text", serif;
+  }

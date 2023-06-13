@@ -3,7 +3,7 @@
 /*LOGICA: REGISTRO DE USUARIOS (KENDRA)*/
 
 
-require "";
+require "config.php";
 $conexion= //"funcion que conecta PHP con DB"
 
 $miRegex = "/[A-z 0-9 \W]{8,}";
